@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.btn{
+  background-color: darkgreen;
+  color: white;
+}
+.btn:hover{
+  background-color: purple;
+  color: lightcyan;
+  transition: ease-in 300ms;
+}
+.btnNegative{
+  background-color: darkred;
+  color: lightcyan;
+}
+.btnNegative:hover{
+  background-color:purple;
+  color: white;
+  transition: ease-in 200ms;
+}
